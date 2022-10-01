@@ -19,6 +19,7 @@ const Navbar = () => {
           <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
           <li><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
           <li><Link to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
+          <li><Link to="services" smooth={true} offset={-200} duration={500}>Services</Link></li>
           <li><Link to="platforms" smooth={true} offset={-100} duration={500}>Platforms</Link></li>
           <li><Link to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
           </ul>
@@ -39,6 +40,7 @@ const Navbar = () => {
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="home" smooth={true} duration={500}>Home</Link></li>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
+          <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="services" smooth={true} offset={-200} duration={500}>Services</Link></li>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="platforms" smooth={true} offset={-100} duration={500}>Platforms</Link></li>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
 
